@@ -1,0 +1,33 @@
+#contact-form {
+  width: 500px;
+  height: 400px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: lightgray;
+  display: block;
+  padding-top: 0px;
+}
+
+#contact-form label,
+#contact-form input,
+#contact-form textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 95%;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"],
+#contact-form textarea {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid gray;
+}
+
+#contact-form button[type="submit"] {
+  background-color: darkblue;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}

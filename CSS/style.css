@@ -1,0 +1,101 @@
+@import url(components/button.css);
+@import url(components/footer.css);
+@import url(components/card.css);
+@import url(components/form.css);
+@import url(components/links.css);
+@import url(components/avatar.css);
+
+*{
+  list-style-type:none;
+}
+
+body {
+  margin:0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #CCF2F4;
+  font-family: Rubik, sans-serif;
+  height: 600px;
+}
+
+h1 {
+  display: flex;
+  margin-top: 25px;
+  font-size: 36px;
+  color:darkblue;
+  font-family: 'Yantramanav', sans-serif;
+}
+
+h2{
+  margin-top: 0px;
+  font-size: 20px;
+  color: #2C74B3;
+  font-family: 'Roboto', sans-serif;
+  text-decoration: underline;
+}
+
+h3{
+  font-family: 'Mako', sans-serif;
+  font-size: 17px;
+  margin-left: 0px;
+  text-align: left;
+}
+
+h4{
+  text-align: center;
+  text-decoration: underline;
+  font-family: 'Mako', sans-serif;
+  font-size: 20px;
+}
+
+img {
+  margin-top: 5px;
+  width: 600px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 10px;
+/* box-shadow: 0px 5px 5px;; */
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover {
+  color: orangered;
+  text-decoration: none;
+}
+
+p{
+  text-align: left;
+  line-height: 22px;
+}
+
+.CTA{
+font-family: 'Didact Gothic', sans-serif;
+font-size: 18px;
+margin-bottom: 5px;
+text-decoration: underline;
+margin-left: 30px;
+}
+
+.vignette{
+  margin-top: 30px;
+  border-radius:100%;
+  border: 1.5px solid darkblue;
+}
+
+.paragraphe{
+  text-align: left;
+  width: 800px;
+}
+
+#video {
+  border-radius: 10px;
+  width: 65%;
+  height: 100%;
+  margin: 20px auto;
+  border-radius: 10px;
+  object-fit: contain;
+}

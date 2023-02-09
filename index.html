@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Page d'accueil de Lenny</title>
+    <meta name="description" content="Les essais en codage de Lenny">
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mako&display=swap" rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/3ec925b6f9.js" crossorigin="anonymous"></script>
+
+  </head>
+
+  <body>
+
+    <img src="images/portrait-lenny.jpg" alt="logo" class="vignette" id="avatar">
+
+    <h1>Introduction au code HTML et CSS</h1>
+
+    <h2>Mineure codage</h2>
+
+    <img src="images/image_landing_page.jpg" alt="Image de la page d'accueil" id="photo">
+    <br>
+
+    <div class="paragraphe">
+      <p>
+        <em><strong>HTML</strong></em> (HyperText Markup Language) est un langage de balisage utilisé pour créer des pages web. Il définit la structure et le contenu d'une page web en utilisant des balises pour décrire les différents éléments tels que les paragraphes, les images, les listes, etc.
+        <br><br>
+        <em><strong>CSS</strong></em> (Cascading Style Sheets) est un langage de style utilisé pour décrire la présentation visuelle des pages web créées avec HTML. Il permet de contrôler l'apparence et le formatage des éléments HTML, tels que les couleurs, les polices, les marges et les bordures. En utilisant CSS, vous pouvez séparer les préoccupations de contenu (HTML) et de style (CSS), ce qui facilite la maintenance et la modification de vos pages web.
+      </p>
+    </div>
+
+    <iframe src="https://www.youtube.com/embed/J9w-cir5a6U" title="CREER UN SITE ? HTML/CSS #1 - LES BASES" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen id="video"></iframe>
+
+    <div class="CTA">
+      <p>Cliquez sur le bouton ci-dessous pour en savoir plus :</p>
+    </div>
+
+    <a href="https://learn.onemonth.com/fr/html-ou-css-quelle-est-la-difference/">
+     <button class="btn">HTML, CSS...?</button>
+    </a>
+
+
+<!-- ici pour faire plusieurs cards cf cours flexbox basics, il faut créer une div cards qui englobe les autres et ensuite on peut jouer avec les display flex etc -->
+
+    <div class="card">
+      <a href="https://www.lewagon.com/fr/lyon">
+        <img src="images/le_wagon_lyon.jpg" alt="Le Wagon Lyon">
+      </a>
+      <div class="textcard">
+        <h3>Lyon</h3>
+        <p>Le Wagon Lyon est une école de code renommée qui offre une formation intensive en développement de logiciels sur 9 semaines.<br><br>Avec des enseignants expérimentés du secteur informatique, un environnement d'apprentissage collaboratif et stimulant, ainsi qu'un soutien continu après la formation, Le Wagon Lyon aide les étudiants à maîtriser les concepts de base de la programmation et à développer leur propre projet de logiciel.</p>
+      </div>
+    </div>
+    <br>
+    <form id="contact-form">
+      <div>
+        <h4>Inscrivez-vous à Lyon</h4>
+        <label for="name">Nom :</label>
+        <input type="text" id="name" name="name">
+      </div>
+      <div>
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email">
+      </div>
+      <div>
+        <label for="message">Message :</label>
+        <textarea id="message" name="message"></textarea>
+      </div>
+      <button type="submit">Envoyer</button>
+    </form>
+    <br><br>
+    <div class="footer">
+      <a href="https://fr-fr.facebook.com/">
+        <i class="fa fa-facebook-square"></i>
+      </a>
+      <a href="https://www.instagram.com/">
+        <i class="fa fa-instagram"></i>
+      </a>
+      <a href="https://www.linkedin.com">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </div>
+
+  </body>
+
+</html>
+
+<!-- bouton principal en bas de page avce les réseaux au lieux d'avoir les vieux liens bleus ; mettre les picto en haut à droite qu'il y a d'habitude sur les sites ; ajouter des cards ??-->
+
+
+
+
+
